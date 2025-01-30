@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I'm <strong>Balaji V</strong>, a passionate Electronics engineer</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p style="display: inline; width: 5%;">Hello! I'm a passionnate Electronics Engineer with a passion for designing, developing, and troubleshooting electronic systems. My expertise spans circuit design, embedded systems, signal processing, and PCB layout, with hands-on experience in microcontrollers, IoT, and power electronics. I thrive on solving complex technical challenges and optimizing electronic solutions for efficiency and performance. Excited to innovate and contribute to cutting-edge technology! </p>
+    </section>
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Circuit Design & Analysis</li>
+            <li>Analog & digital circuit design,</li> 
+            <li>simulation (LTspice, Proteus, Multisim)</li>
+            <li>Embedded Systems & Microcontrollers – Arduino, Raspberry Pi, STM32, PIC, ESP32 </li>
+            <li> & FPGA Programming – Verilog, VHDL (Xilinx, Quartus)</li>
+        </ul>
+        <h2>Programming Skills</h2>
+        <ul>
+            <li>C, C++, Python, MATLAB, VHDL</li>
+            <li>Simulation Tools: MATLAB/Simulink, PSpice, Proteus</li> 
+            <li> CAD & 3D Modeling: AutoCAD, SolidWorks (for enclosures)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project Title</h3>
+            <p>Short description of the project goes here.</p>
+            <a href="project-link" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Another Project</h3>
+            <p>Short description of this project.</p>
+            <a href="project-link" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to collaborate or get in touch, feel free to reach out.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="node.js"></script>
+</body>
+</html>
